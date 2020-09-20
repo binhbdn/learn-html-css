@@ -1,0 +1,59 @@
+/* Web101x Assignment 4 - Author: FX06635 */
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+
+/*@media screen and (min-width: 576px) {}*/
+
+
+/*@media screen and (max-width: 767px) {}*/
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media screen and (min-width: 768px) {
+    .my_navbar_bg {
+        background-color: #007bff !important;
+    }
+    .my_white_color {
+        color: #fff !important;
+    }
+    nav a:hover,
+    nav a:active,
+    nav h1:hover,
+    nav h1:active {
+        color: maroon!important;
+    }
+    #id_contacts_form ul {
+        list-style-type: disc;
+        margin-left: 0 !important;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+    #id_submit_btn_div {
+        margin-left: 100% !important;
+    }
+    #id_submit_btn_div input {
+        margin-left: -51px !important;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+
+/* @media screen and (min-width: 1200px) {} */
+
+hr {
+    width: 50px;
+    height: 4px;
+}
