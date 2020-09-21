@@ -1,0 +1,15 @@
+p,h1,h4 {
+color:red;
+}
+
+div p {
+color:blue
+}
+
+#first-id {
+color:darkorange;
+}
+
+.first-class {
+color:purple;
+}
