@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body id="contact">
+<div class="container">
+    <header class="header">
+        <a class="link-title" href="/">Minimalistic Website</a>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Home</a> &nbsp; &nbsp; &nbsp; 
+        <a href="about.html">About us</a> &nbsp; &nbsp; &nbsp; 
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <aside>
+        <h1>Side Bar</h1>
+    </aside>
+
+    <article class="main">
+        <h1 class="page-heading">Contact</h1>
+
+        <div id="form">
+        <form method="post" action="process.php">
+            <p>
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" placeholder="Your Name" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" required>
+            </p>
+
+            <label for="subject">Subject:</label>
+            <input id="subject" type="text" name="subject" required>
+
+            <p> 
+                <label for="message"></label>
+                <textarea id="message" name="body" cols="30" rows="10" required></textarea>
+            </p> 
+
+            <p>
+                <input id="submit" type="submit" name="submit" value="Send Message">
+            </p>
+        </form>
+        </div>
+    </article>
+
+    <footer>
+        &copy; 2030 Minimalistic Website &nbsp;<span class="separator">|</span> Design by <a href="http://www.edwindiaz.com">Edwin Diaz</a>
+    </footer>
+</div>
+</body>
+</html>
