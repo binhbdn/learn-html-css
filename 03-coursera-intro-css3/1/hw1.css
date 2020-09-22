@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 47px 20px;
+}
+
+header {
+    background-color: rgb(178, 178, 178);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgb(7, 4, 122);
+    text-transform: uppercase;
+}
+
+
+/* .right */
+
+section {
+    background-color: rgb(127, 127, 127);
+}
+
+a {
+    color: #000;
+    background-color: rgb(197, 197, 197);
+    /* centered links : not required */
+}
+
+
+/* .left */
+
+img {
+    display: none;
+}
