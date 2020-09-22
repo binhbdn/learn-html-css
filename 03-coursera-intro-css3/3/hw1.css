@@ -1,0 +1,134 @@
+* {padding: 0;margin: 0;box-sizing: border-box;}
+
+/* The table should be styled using at least four properties */
+table {
+    margin: 0 auto;
+    border-spacing: 0;
+    border: 1px solid #000;
+    -webkit-border-radius: 30px 10px;
+    border-radius: 30px 10px;
+    background-color: rgb(226, 245, 215);
+}
+
+/* The table headings should have a thicker bottom border with the top two corners rounded,
+a background color, and at least one other property */
+th {
+    border-bottom: 3px solid rgb(77, 100, 0);
+    border-left: 1px solid #fff;
+    background-color: rgb(144, 160, 91);
+    color: #fff;
+    padding: 10px;
+}
+
+tr:first-child>th:first-child {
+    -webkit-border-radius: 30px 0 0 0;
+    border-radius: 30px 0 0 0;
+}
+
+tr:first-child>th:last-child {
+    -webkit-border-radius: 0 10px 0 0;
+    border-radius: 0 10px 0 0;
+}
+
+/* Style the table so that the text in the first column is left-aligned
+and the text in the other two columns is centered */
+tr>th:first-child,
+tr>td:first-child {
+    text-align: left;
+}
+
+tr>th:not(:first-child),
+tr>td:not(:first-child) {
+    text-align: center;
+}
+
+/* Set the opacity of the table rows to a value between 0.6 and 0.8
+Change the opacity of a row when it is hovered over */
+tr {
+    opacity: 0.6;
+}
+
+tr:hover {
+    opacity: 1;
+}
+
+/* The table elements <td> should be styled using at least four properties */
+td {
+    height: 40px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+td:hover {
+    background-color: #ffff00;
+    color: #ff0000;
+    -webkit-border-radius: 30px 10px;
+    border-radius: 30px 10px;
+}
+
+body {
+    padding: 25px;
+    margin: 0;
+}
+
+header {
+    padding: 30px;
+    background-color: rgb(178, 178, 178);
+    background-image: url(../images/flywheel.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 15px 30px;
+    border-radius: 5px 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.active {
+    color: rgb(7, 4, 122);
+    background-color: #ffff;
+}
+
+.left {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 15px 30px;
+    background-color: rgb(118, 118, 42);
+}
+
+.right {
+    display: block;
+    float: left;
+    width: 75%;
+    padding: 30px 0 30px 30px;
+}
+
+img {
+    width: 100%;
+    border: 2px solid #000;
+    margin: 15px 0;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
