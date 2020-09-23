@@ -1,0 +1,18 @@
+div {
+  height: 200px;
+  width: 200px;
+}
+
+@each $color in blue, red, green {
+  .#{$color}-text {color: $color;}
+}
+
+$colors: (color1: lightblue, color2: lightgray, color3: lightgreen);
+
+@each $key, $color in $colors {
+  .#{$color}-text {color: $color;}
+}
+
+@each $color in blue, black, red {
+  .#{$color}-bg {background-color: $color;}
+}
