@@ -1,0 +1,40 @@
+div {
+  height: 200px;
+  width: 200px;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.red-text {
+  color: red;
+}
+
+.green-text {
+  color: green;
+}
+
+.lightblue-text {
+  color: lightblue;
+}
+
+.lightgray-text {
+  color: lightgray;
+}
+
+.lightgreen-text {
+  color: lightgreen;
+}
+
+.blue-bg {
+  background-color: blue;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.red-bg {
+  background-color: red;
+}
